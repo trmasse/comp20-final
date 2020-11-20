@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    color: #FF9880;
+    text-shadow: 1px 1px #000000;
+    text-align:center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #000000;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+th {
+    background-color: #FFD780;
+    font-size: 20px;
+}
+
+td {
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFEFCC;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img, button {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
